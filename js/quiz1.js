@@ -1,3 +1,9 @@
+// use to print message
+function print(message) {
+  document.write(message);
+}
+
+
 // Ask a question
 function askQuestion(question){
   answer = prompt(question);
@@ -42,6 +48,6 @@ var Quiz = [
 correctHTML += '</ol>';
 wrongHTML += '</ol>';
 
-document.write(correctHTML);
-document.write(wrongHTML);
+print(correctHTML);
+print(wrongHTML);
   
