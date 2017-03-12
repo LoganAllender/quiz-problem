@@ -32,13 +32,13 @@ for ( var i = 0 ; i < Quiz.length ; i += 1 ){
      answer = Quiz[i][1];
      response = prompt(question);
      response = parseInt(response);
-} if ( response === answer ) {
+if ( response === answer ) {
   correctAnswers += 1;
   correctAnswersArray.push(question);
 } else {
   wrongAnswersArray.push(question);
 }
-
+}
 
 html = 'You got ' + correctAnswers + ' correct <br>';
 html += 'You got these questions correct:';
